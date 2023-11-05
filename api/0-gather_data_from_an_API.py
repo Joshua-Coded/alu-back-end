@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-getting data from the api
+getting data using api 
 """
 
 import requests
@@ -38,3 +38,4 @@ if __name__ == "__main__":
     print(f"Employee {employee_name} is done with tasks({completed}/{total}):")
     for _ in done:
         print(f"\t {_}")
+    
